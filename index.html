@@ -1,0 +1,159 @@
+
+<!doctype html>
+<html>
+<head>
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="style_h.css" rel="stylesheet" type="text/css">
+<link href="style_an.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="nav.css" rel="stylesheet" type="text/css">
+
+<link href="rwd.css" rel="stylesheet" type="text/css">
+
+
+  <meta charset="utf-8">
+<title>Townsville Music </title>
+<header>
+       <img src="logo.jpg" style="width:6%" align="left">
+    	<h1>Townsville Community Music Center</h1>
+   
+    </header>
+     <ul class="top-level-menu" id="top_menu">
+    	<li><a href="index.html" id="0" onClick="nav_item_selected(0)">Home</a></li>
+        
+		<li><a href="events.html" id="1" onClick="nav_item_selected(1)">Events</a></li>
+		
+    	<li><a href="band.html" id="2" onClick="nav_item_selected(2)">Artists</a></li>
+		
+		<li><a href="registration.html" id="3" onClick="nav_item_selected(1)">Membership</a>
+    
+    	<li><a href="history.html" id="5" onClick="nav_item_selected(3)">History</a></li>
+		
+		<li><a href="contact us.html" id="6" onClick="nav_item_selected(3)">Contact Us</a></li>
+	</ul
+    <div style="height: 0px; clear: both;"></div>
+  <body onLoad="run_first()">
+
+
+
+<div class="row">
+
+<div class="header">  
+ <h1 align="center" style="color:#EDEAE5;" >Who are we?</h1> 
+</div>
+
+<div class="pad">
+</div>
+
+<center>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="slideshow1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="slideshow2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="slideshow3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="slideshow4.jpg" style="width:100%">
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="a"></span> 
+  <span class="dot" onclick="b"></span> 
+  <span class="dot" onclick="C"></span> 
+  <span class="dot" onclick="d"></span>
+</div>
+</div>
+</center>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+
+<p></p>
+
+<p align="center" style="color:#EDEAE5;">Townsville Community Music Centre is a not-for-profit, incorporated organisation serving musicians and their audience in North Queensland. The Music Centre's role includes facilitation, presentation and promotion of events, functions, education, workshops, concerts, festivals in Townsville, and surrounding centres.</p>
+							<p align="center" style="color:#EDEAE5;"> Based in Townsville, North Queensland, Australia, it promotes local artists and presents performances by inter- and intra-state and international artists.</p>
+							<p align="center" style="color:#EDEAE5;"> It is involved in the instigation of projects based on cross collaboration with other artistic disciplines, and it promotes the work of North Queensland musicians outside the region, organising tours and promoting their work.</p>
+							<p align="center" style="color:#EDEAE5;"> </p>
+							
+							
+<p align="center" style="color:#EDEAE5;" >Information on their Townsville Chapter can be found at <a href="http://webapps.townsville.qld.gov.au/CommunityDirectory/Organisation/OrganisationDetails/1185" >click here</a></p>
+
+<div class="header">  
+ <h1 align="center"  style="color:#EDEAE5;">What we Provide ? </h1> 
+</div>
+
+<p align="center" style="color:#EDEAE5;">The Music Centre offers various levels of membership. To join and experience the benefits that membership provides when using this site please click below to join now. You can also join by printing out the form found at the bottom of this page.</p>
+							<p align="center" style="color:#EDEAE5;"> Individual membership for the Music Centre.</p>
+							<p align="center" style="color:#EDEAE5;"> Music Centre Annual Membership Individual Subscription Option</p>
+							<p align="center" style="color:#EDEAE5;"> <a href="registration.html">Click here</a> to Subscribe: $25.00 / 1Y </p>
+
+<div class="downloada">							
+<a href="Membership applic form 2015.doc" download="Membership application">Download the Application from here</a>
+</div>
+
+
+<div class="row">
+<div class="column" style="background-color: #FFFFFF;">
+<h2 align="center">Proudly Supported By</h2>
+<img src="support.jpg" alt="Paris" class="center">
+<p align="center"><strong></strong>
+<strong> Queensland Government </strong> and <strong>Townsville City Council</strong><strong></strong><strong><br>
+</strong></p>
+<p class="text-uppercase text-justify" align="center"><strong>You can support the Music Centre by becoming a Member and derive some benefits for yourself at the same time.
+Your subscription helps to keep us operating and we provide substantial discounts whenever possible.</strong></p>
+								
+                           
+</div>
+ 
+<div class="column" style="background-color: #FFFFFF;">
+<img src="logo2.jpg" alt="tsa" class="center">
+<center>
+<h3> CONNECT WITH US ON FACEBOOK</h3>
+<p> Click below to Join the Townsville Community Music Centre Group</p>
+<p> For latest updates</p>
+<a href ="https://www.facebook.com/townsvillemusic/"  target="_blank" class = "fa fa-facebook"></a>
+</center>
+</div>
+</div>
+</div>
+</div>
+<footer>
+
+<center>
+<h3>Townsville Music </h3>
+</center></footer>	
+</body>
+</html>
